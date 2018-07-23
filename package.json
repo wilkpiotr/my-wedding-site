@@ -4,7 +4,8 @@
   "description": "my-wedding-site",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/wilkpiotr/my-wedding-site/issues"
   },
-  "homepage": "https://github.com/wilkpiotr/my-wedding-site#readme"
+  "homepage": "https://github.com/wilkpiotr/my-wedding-site#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^1.0.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0"
+  }
 }
