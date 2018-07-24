@@ -18,12 +18,21 @@
   },
   "homepage": "https://github.com/wilkpiotr/my-wedding-site#readme",
   "devDependencies": {
+    "autoprefixer": "^9.0.1",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
     "babel-preset-env": "^1.7.0",
     "css-loader": "^1.0.0",
+    "cssnano": "^4.0.3",
+    "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.4.1",
+    "node-sass": "^4.9.2",
+    "postcss-loader": "^2.1.6",
+    "sass-loader": "^7.0.3",
     "webpack": "^4.16.2",
     "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "css-mqpacker": "^7.0.0"
   }
 }
