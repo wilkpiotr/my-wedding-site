@@ -1,6 +1,8 @@
 div {
-    color: red;
-    font-size: 5em;
-    text-decoration-line: line-through;
-    text-decoration-color: black;
-  }
+  font-size: 5em;
+  text-decoration-line: line-through;
+  text-decoration-color: pink;
+  border-width: 2px;
+  @util border-style(solid null dotted dashed);
+  @util border-color(#aaa null #000 red);
+}
