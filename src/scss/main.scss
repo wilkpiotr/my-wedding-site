@@ -1,8 +1,15 @@
+@import "~bootstrap/scss/bootstrap";
+
+section {
+  background: grey url('../pictures/corfu.jpg') no-repeat center bottom;
+  background-size: cover;
+  height: 100vh;
+}
+
 div {
-  font-size: 5em;
-  text-decoration-line: line-through;
-  text-decoration-color: pink;
+  font-size: 2rem;
+  margin-left: 30%;
+  margin-right: 30%;
   border-width: 2px;
-  @util border-style(solid null dotted dashed);
-  @util border-color(#aaa null #000 red);
+  border: 3px solid white;
 }
