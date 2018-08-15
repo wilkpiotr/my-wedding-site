@@ -8,7 +8,7 @@ section {
 }
 
 div {
-  font-size: 2rem;
+  // font-size: 2rem;
   // margin-left: 30%;
   // margin-right: 30%;
   // border-width: 2px;
@@ -30,4 +30,10 @@ span {
   padding: 5px;
   padding-top: 0;
   border-radius: 5px; 
+}
+#map {
+  width: 1200px;
+  height: 500px;
+  border: 2px solid black;
+  margin: 100px;
 }
