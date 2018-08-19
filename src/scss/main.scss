@@ -1,39 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
+@import "about_us";
 
-section {
-  background: grey url('../images/corfu-bench.jpg') no-repeat;
-  background-position: center bottom 35%;
-  background-size: cover;
-  height: 70vh;
-}
-
-div {
-  // font-size: 2rem;
-  // margin-left: 30%;
-  // margin-right: 30%;
-  // border-width: 2px;
-  // border: 3px solid white;
-}
-
-#countdown, .clock,{
-  display: inline-block;
-}
-.clock {
-  width: 135px;
-  background: rgba(175, 175, 175, .5);
-  border-radius: 5px; 
-}
-
-span {
-  font-size: 3.5rem;
-  background: rgba(125, 125, 125, .5);
-  padding: 5px;
-  padding-top: 0;
-  border-radius: 5px; 
-}
-#map {
-  width: 1200px;
-  height: 500px;
-  border: 2px solid black;
-  margin: 100px;
+html {
+  box-sizing: border-box;
 }

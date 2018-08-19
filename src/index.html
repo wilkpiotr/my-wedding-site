@@ -13,45 +13,59 @@
 </head>
 
 <body>
-    <section class="About-us pt-5 pb-5">
-        <h1 class="text-center text-dark mb-4">Agata &amp Piotrek</h1>
-        <div class="text-center text-light">
-            <h3 class="mb-4">do wesela zostało:</h3>
-            <div id="countdown">
-                <div class="clock">
-                    <span class="days"></span>
-                    <p>Dni</p>
-                </div>
-                <div class="clock">
-                    <span class="hours"></span>
-                    <p>Godziny</p>
-                </div>
-                <div class="clock">
-                    <span class="minutes"></span>
-                    <p>Minuty</p>
-                </div>
-                <div class="clock">
-                    <span class="seconds"></span>
-                    <p>Sekundy</p>
+    <section class="About-us container-fluid pt-5 pb-5">
+        <div class="presentation container">
+            <h1 class="text-center text-dark mb-4"><span class="pr-5">Agata</span><span class="pl-5">Piotrek</span></h1>
+            <div class="text-center text-danger pb-5 mb-5">
+                <h3 class="mb-4">do wesela pozostało:</h3>
+                <div class="d-inline-block" id="countdown">
+                    <div class="clock d-inline-block">
+                        <span class="days"></span>
+                        <p>Dni</p>
+                    </div>
+                    <div class="clock d-inline-block">
+                        <span class="hours"></span>
+                        <p>Godziny</p>
+                    </div>
+                    <div class="clock d-inline-block">
+                        <span class="minutes"></span>
+                        <p>Minuty</p>
+                    </div>
+                    <div class="clock d-inline-block">
+                        <span class="seconds"></span>
+                        <p>Sekundy</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
-
-    <h3>My Google Maps Demo</h3>
-    <!--The div element for the map -->
-    <div id="map"></div>
-    <!--Load the API from the specified URL
-    * The async attribute allows the browser to render the page while the API loads
-    * The key parameter will contain your own API key (which is not needed for this tutorial)
-    * The callback parameter executes the initMap() function
-    -->
-    
+        <div class="agenda container">
+            <h3 class="invite text-center text-dark p-5">UROCZYSTOŚCI:</h3>
+            <div class="marriage row mb-5 ml-0 mr-0">
+                <div class="info-box border border-danger rounded badge p-0 col-1">
+                    <p class="font-weight-bold pt-2">06</p>
+                    <p class="date">PAŹ 2019</p>
+                    <p class="hour border-top border-danger pt-2">15:00</p>
+                </div>
+                <div class="col text-danger">
+                    <h5>ŚLUB</h4>
+                    <p>Ceremonia ślubna odbędzie się w kościele pod wezwaniem św. Jadwigi w Dębicy.<br> Serdecznie zapraszamy wszystkich członków naszej rodziny, a tekże naszych przyjaciół i ich najbliższych!</p>
+                </div>
+            </div>
+            <div class="wedding-party row mb-5 ml-0 mr-0">
+                <div class="info-box border border-danger rounded badge p-0 col-1">
+                    <p class="font-weight-bold pt-2">06</p>
+                    <p class="date">PAŹ 2019</p>
+                    <p class="hour border-top border-danger pt-2">16:30</p>
+                </div>
+                <div class="col text-danger">
+                    <h5>WESELE</h4>
+                    <p>Przyjęcie weselne będzie miało miejsce w restauracji Ambrozja przy ulicy Adama Mickiewicza 62 w Dębicy.<br> Zapraszamy na pyszne posiłki oraz wspólną zabawę w wyjątkowej atmosferze, którą wspólniebędziemy tworzyć</p>
+                </div>
+            </div>
+            <div class="pt-0" id="map"></div>
+        </div>
+        
+    </section>   
     <script src="main.js"></script>
-
-
-    
-
 </body>
-
 </html>

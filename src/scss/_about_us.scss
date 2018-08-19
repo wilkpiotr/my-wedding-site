@@ -1,0 +1,42 @@
+section {
+    background-image:url('../images/rings.png'), url('../images/flower-frame.png'), url('../images/background-bloom.jpg');
+    background-attachment: scroll, local, local;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center top 3%, top center, center center;
+    background-size:200px 100px, 1120px 450px, cover;
+    h1 {
+        span{
+            font-size: 3.5rem;
+        }
+    }
+    div {
+        #countdown {
+            border-top: 3px solid $red;
+            border-bottom: 3px solid $red;
+            .clock {
+                width: 135px;
+                .days, .hours, .minutes, .seconds {
+                    font-size: 3rem;
+                }
+            }
+        }
+    }
+    .invite {
+        margin-top: 100px;
+    }
+    .marriage, .wedding-party {
+        background-color: rgba($color: $pink, $alpha: .05);
+        .info-box {
+            font-size: 0.9rem;
+            p:first-of-type {
+                font-size: 1.3rem;
+            }
+        }
+    }
+    #map {
+        height: 500px;
+        border: 2px solid $red;
+        margin-bottom: 100px;
+        margin-left: calc(50%-1111px/2);
+      }
+}
