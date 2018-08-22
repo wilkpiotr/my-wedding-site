@@ -1,3 +1,5 @@
+const loadGoogleMapsApi = require('load-google-maps-api')
+
 export function initMap() {
     const church = {lat: 50.053053, lng: 21.413948};
     const center = {lat: 50.053713, lng: 21.422612};

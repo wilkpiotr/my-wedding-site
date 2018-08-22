@@ -27,7 +27,7 @@ module.exports = {
         use:  [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader', 'sass-loader']
       },
       {
-        test: /\.(png|jpg|gif)$/,
+        test: /\.(png|jpg|gif|ico)$/i,
         use: [
           'file-loader', 
           {
@@ -63,6 +63,7 @@ module.exports = {
       chunkFilename: "[id].css"
       }),
     new HtmlWebpackPlugin({
+        favicon: './src/images/favicon.ico',
         inject: false,
         hash: true,
         template: './src/index.html',
